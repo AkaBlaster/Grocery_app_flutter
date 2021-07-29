@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:myapp/modals/cardModal.dart';
 import '../modals/categoryModal.dart';
 
 const KPageViewTextStyle = TextStyle(
@@ -37,4 +38,13 @@ final categoryList = [
       image: "asset/Chips.png", category: "Bag of Chips", discount: 10),
   CategoryModal(image: "asset/Banana.png", category: "Banana", discount: 10),
   CategoryModal(image: "asset/Carrot.png", category: "Carrots", discount: 10),
+];
+
+final cardList = [
+  CardModal(
+    image: "asset/product2.png",
+    description: "Fresh Meat",
+  ),
+  CardModal(image: "asset/product3.png", description: "Bakery Products"),
+  CardModal(image: "asset/product4.png", description: "Fresh Vegetables"),
 ];

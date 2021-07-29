@@ -18,11 +18,11 @@ class SearchBar extends StatelessWidget {
       ),
       child: Container(
         margin: EdgeInsets.only(left: 20, right: 20),
-        height: 45.0,
+        height: 50.0,
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(horizontal: kFixPadding),
         decoration: BoxDecoration(
-          color: kWhiteColor,
+          color: Colors.grey.withOpacity(0.2),
           borderRadius: BorderRadius.circular(25.0),
         ),
         child: Row(
